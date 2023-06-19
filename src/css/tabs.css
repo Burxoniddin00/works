@@ -1,0 +1,44 @@
+.container_Tabs {
+    background: #252b4f;
+    margin: 0 10px;
+    margin-top: 20px;
+
+}
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    background: #0000002d;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    cursor: pointer;
+    width: 100%;
+    padding: 5px;
+    margin: 3px;
+    color: #fff;
+}
+
+.tabs button:disabled {
+    background-color: rgb(33, 33, 255);
+    color: white;
+    border-radius: 20px;
+}
+
+
+.tabs_img{
+    width: 20px;
+}
+
+.tabs__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(33, 33, 255);
+    border-radius: 10px;
+    padding:5px 0;
+    color:white;
+    cursor: pointer;
+}

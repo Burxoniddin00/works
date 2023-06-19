@@ -1,0 +1,65 @@
+.container {
+    max-width: 1300px;
+    background: #ffffff;
+    padding: 0 10px;
+}
+
+.madal__ima {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.madal__div {
+    background: #252b4f;
+    max-width: 280px;
+    height: 1000px;
+    padding: 20px 0;
+}
+
+.madal__ucsers {
+    background: #43466a;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.madal_name {
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.madal__right {
+    width: 20px;
+}
+.madal__text {
+    color: #b4b0b0;
+    font-size: 12px;
+}
+.madal__btn {
+    border: none;
+    outline: none;
+    background-color: rgb(33, 33, 255);
+    width: 50px;
+    border-radius: 10px;
+}
+
+.malal__price {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 2px;
+}
+
+.madal__price__div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    margin-top: 20px;
+
+}

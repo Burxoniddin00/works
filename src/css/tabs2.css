@@ -1,0 +1,45 @@
+.container_Tabs2 {
+    background: #252b4f;
+    margin-right: 5px;
+    margin-top: 30px;
+}
+.tabs2 {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.tabs2 button {
+    cursor: pointer;
+    width: 100%;
+    padding: 5px;
+    margin: 3px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding-left: 10px;
+}
+
+.tabs2 button:disabled {
+    background: #5463d21f;
+    color: white;
+    border-right:4px solid  rgb(33, 33, 255) ;
+}
+
+.tabs__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(33, 33, 255);
+    border-radius: 10px;
+    padding:5px 0;
+    color:white;
+    cursor: pointer;
+}
+
+.tabs_img2{
+    width: 30px;
+    background: #5463d21f;
+    border-radius: 5px;
+}
